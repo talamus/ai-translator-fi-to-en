@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "ai-translator-fi-to-en"
+version = "0.0.0"
+description = "Translate a Science Fiction novel from Finnish to English using GPT4 Turbo and Claude 3 Opus"
+authors = ["Tero Niemi <tero.niemi@nimbus.fi>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.dev-dependencies]
+black = "^24.4.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

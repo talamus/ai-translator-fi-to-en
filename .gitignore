@@ -1,3 +1,9 @@
+# Ignore original texts and translations
+originals/*
+!/originals/README.md
+translations/*
+!/translations/README.md
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
